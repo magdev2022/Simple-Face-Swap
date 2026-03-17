@@ -18,7 +18,6 @@ This project uses a webcam feed to swap your face with a source face image, then
 Place these files in the `models/` folder (already present in this repository):
 
 - `models/det_10g.onnx` (detector)
-- `models/w600k_r50.onnx` (recognition)
 - `models/inswapper_128_fp16.onnx` (face swap)
 - `models/faceparser_fp16.onnx` (segmentation)
 - `models/codeformer.onnx` (face enhance)
@@ -30,9 +29,9 @@ Place these files in the `models/` folder (already present in this repository):
 
 **Install dependencies** (if not already installed):
 
-    ```powershell
-    pip install -r requirements.txt
-    ```
+```powershell
+pip install -r requirements.txt
+```
 ---
 
 ## ▶️ Run
