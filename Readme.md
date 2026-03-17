@@ -26,13 +26,9 @@ Place these files in the `models/` folder (already present in this repository):
 
 ## 🛠 Setup (Windows)
 
-1. **Activate the virtual environment** (already created in this repo):
+(Install python 3.13.)
 
-    ```powershell
-    & .\.venv\Scripts\Activate.ps1
-    ```
-
-2. **Install dependencies** (if not already installed):
+**Install dependencies** (if not already installed):
 
     ```powershell
     pip install -r requirements.txt
